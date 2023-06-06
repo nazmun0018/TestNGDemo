@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-02T12:47:44 PST" name="DemoSuite" finished-at="2023-01-02T12:47:44 PST" duration-ms="124">
+    <groups>
+    </groups>
+    <test started-at="2023-01-02T12:47:44 PST" name="DemoTest" finished-at="2023-01-02T12:47:44 PST" duration-ms="27">
+      <class name="ParallelDemo">
+        <test-method signature="Demo()[pri:0, instance:ParallelDemo@18bf3d14]" started-at="2023-01-02T12:47:44 PST" name="Demo" finished-at="2023-01-02T12:47:44 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo1()[pri:0, instance:ParallelDemo@18bf3d14]" started-at="2023-01-02T12:47:44 PST" name="Demo1" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- ParallelDemo -->
+      <class name="TestCases">
+        <test-method signature="fifth()[pri:0, instance:TestCases@365185bd]" started-at="2023-01-02T12:47:44 PST" name="fifth" finished-at="2023-01-02T12:47:44 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifth -->
+        <test-method signature="second()[pri:0, instance:TestCases@365185bd]" started-at="2023-01-02T12:47:44 PST" name="second" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method signature="forth()[pri:0, instance:TestCases@365185bd]" started-at="2023-01-02T12:47:44 PST" name="forth" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forth -->
+        <test-method signature="third()[pri:0, instance:TestCases@365185bd]" started-at="2023-01-02T12:47:44 PST" name="third" finished-at="2023-01-02T12:47:44 PST" depends-on-methods="TestCases.forth" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+        <test-method signature="first()[pri:0, instance:TestCases@365185bd]" started-at="2023-01-02T12:47:44 PST" name="first" finished-at="2023-01-02T12:47:44 PST" depends-on-methods="TestCases.second" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- TestCases -->
+      <class name="Params">
+        <test-method signature="DemoTest(int, int)[pri:0, instance:Params@7e0e6aa2]" started-at="2023-01-02T12:47:44 PST" name="DemoTest" finished-at="2023-01-02T12:47:44 PST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTest -->
+      </class> <!-- Params -->
+    </test> <!-- DemoTest -->
+    <test started-at="2023-01-02T12:47:44 PST" name="DemoTest12" finished-at="2023-01-02T12:47:44 PST" duration-ms="6">
+      <class name="ParallelDemo">
+        <test-method signature="Demo1()[pri:0, instance:ParallelDemo@5c18298f]" started-at="2023-01-02T12:47:44 PST" name="Demo1" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="Demo()[pri:0, instance:ParallelDemo@5c18298f]" started-at="2023-01-02T12:47:44 PST" name="Demo" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- ParallelDemo -->
+      <class name="TestCases">
+        <test-method signature="forth()[pri:0, instance:TestCases@27d415d9]" started-at="2023-01-02T12:47:44 PST" name="forth" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forth -->
+        <test-method signature="second()[pri:0, instance:TestCases@27d415d9]" started-at="2023-01-02T12:47:44 PST" name="second" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method signature="fifth()[pri:0, instance:TestCases@27d415d9]" started-at="2023-01-02T12:47:44 PST" name="fifth" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifth -->
+        <test-method signature="first()[pri:0, instance:TestCases@27d415d9]" started-at="2023-01-02T12:47:44 PST" name="first" finished-at="2023-01-02T12:47:44 PST" depends-on-methods="TestCases.second" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method signature="third()[pri:0, instance:TestCases@27d415d9]" started-at="2023-01-02T12:47:44 PST" name="third" finished-at="2023-01-02T12:47:44 PST" depends-on-methods="TestCases.forth" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+      </class> <!-- TestCases -->
+      <class name="Params">
+        <test-method signature="DemoTest(int, int)[pri:0, instance:Params@fcd6521]" started-at="2023-01-02T12:47:44 PST" name="DemoTest" finished-at="2023-01-02T12:47:44 PST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'val1' is required by @Test on method DemoTest but has not been marked @Optional or defined
+in /Users/Nazmun0018/IdeaProjects/TestNGDemo/TestNG.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'val1' is required by @Test on method DemoTest but has not been marked @Optional or defined
+in /Users/Nazmun0018/IdeaProjects/TestNGDemo/TestNG.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTest -->
+      </class> <!-- Params -->
+    </test> <!-- DemoTest12 -->
+  </suite> <!-- DemoSuite -->
+</testng-results>

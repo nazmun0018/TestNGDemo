@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+    <test name="DemoTest">
+<parameter name="val1" value="10"></parameter>
+        <parameter name="val2" value="32"></parameter>
+
+        <classes>
+           <class name="Params"></class>
+            <class name="TestCases"></class>
+            <class name="ParallelDemo"></class>
+        </classes>
+    </test>
+    <test name="DemoTest12">
+        <classes>
+        <class name="Params"></class>
+        <class name="TestCases"></class>
+        <class name="ParallelDemo"></class>
+        </classes>
+    </test>
+</suite>
